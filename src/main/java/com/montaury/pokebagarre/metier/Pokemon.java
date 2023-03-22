@@ -1,5 +1,6 @@
 package com.montaury.pokebagarre.metier;
 
+
 public class Pokemon {
   private final String nom;
   private final String urlImage;
@@ -29,4 +30,8 @@ public class Pokemon {
     return statsPremier.getAttaque() > statsSecond.getAttaque()
       || statsPremier.getAttaque() == statsSecond.getAttaque() && statsPremier.getDefense() >= statsSecond.getDefense();
   }
+
+
+
+
 }
